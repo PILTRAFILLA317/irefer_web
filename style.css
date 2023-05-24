@@ -85,16 +85,16 @@ main .logo {
 }
 
 .gradient-text-b {
-  font-size: 1.5vw;
+  font-size: 2vw;
   color: transparent;
 }
 
 .gradient-text-m {
   padding-right: 10rem;
-  font-size: 1.2vw;
+  font-size: 2rem;
   color: transparent;
   position: relative;
-  top: 10rem;
+  top: 7rem;
 }
 
 
@@ -146,4 +146,14 @@ main .logo {
   position: absolute;
   bottom: 0;
   color: #af3161;
+}
+
+.more-menu{
+  height: 2.2rem;
+  width: auto;
+  padding-right: 0rem;
+  position: relative;
+  top: 10.7rem;
+  right: 0rem;
+  left: 6.5rem;
 }

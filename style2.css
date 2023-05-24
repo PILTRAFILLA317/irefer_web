@@ -27,6 +27,7 @@ body {
   }
   
   main {
+	width: 100vw;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -165,4 +166,20 @@ body {
 	top: 10.7rem;
 	right: 0rem;
 	left: 6.5rem;
+  }
+
+  .chase{
+	width: 100%;
+	height: auto;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+  }
+
+  .chase img{
+	overflow: hidden;
+	width: 70%;
+	height: auto;
+	padding-top: 5rem;
+	margin: 0;
   }

@@ -33,6 +33,7 @@ main {
 }
 
 footer {
+  padding-top: 350rem;
   width: 100vw;
   display: flex;
   justify-content: space-around;
@@ -236,7 +237,7 @@ main .logo {
   position: relative;
   top: 130rem;
   padding: 0;
-  right: 5rem;
+  right: 0;
   margin: 0;
 }
 

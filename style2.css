@@ -32,6 +32,17 @@ body {
 	justify-content: space-around;
 	align-items: center;
   }
+
+  footer{
+	width: 100vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+  }
+
+  footer h1{
+	color: #312237;
+  }
   
   .index-menu {
 	width: 50vw;
@@ -124,7 +135,6 @@ body {
   }
   
   .phone p{
-	/* gap: 5rem; */
 	font-size: 250%;
 	padding: 3rem;
 	margin: 0;
@@ -133,8 +143,8 @@ body {
   }
   
   .phone img{
-	width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
-	height: auto; /* Ajusta la altura proporcionalmente */
+	width: 50px;
+	height: auto;
 	margin-right: 10px;
   }
   
@@ -182,4 +192,21 @@ body {
 	height: auto;
 	padding-top: 5rem;
 	margin: 0;
+  }
+
+  .icons{
+	width: 20rem;
+	left: 10rem;
+	position: relative;
+  }
+
+  .bot_phone{
+	width: 20rem;
+  }
+
+  .bot_phone img{
+	height: 10rem;
+	width: auto;
+	position: relative;
+	right: 5rem;
   }

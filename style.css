@@ -84,6 +84,11 @@ main .logo {
   color: transparent;
 }
 
+.gradient-text-b {
+  font-size: 1.5vw;
+  color: transparent;
+}
+
 .gradient-text-m {
   padding-right: 10rem;
   font-size: 1.2vw;
@@ -99,3 +104,46 @@ main .logo {
   background-image: linear-gradient(to right, #76468e, #af3161);
 }
 
+.phone{
+  width: 38vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-left: 15rem;
+  margin: 0;
+}
+
+.phone p{
+  /* gap: 5rem; */
+  font-size: 250%;
+  padding: 3rem;
+  margin: 0;
+  font-family: 'Gotham Light', sans-serif;
+  color: #af3161;
+}
+
+.phone img{
+  width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+  height: auto; /* Ajusta la altura proporcionalmente */
+  margin-right: 10px;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.top-text{
+  padding-left: 5rem;
+  font-size: 1.2vw;
+  position: relative;
+  bottom: 29rem;
+  color: #af3161;
+}
+
+.bot-text{
+  position: absolute;
+  bottom: 0;
+  color: #af3161;
+}

@@ -1,5 +1,5 @@
 const reguetona = () => {
-  const texts = document.querySelectorAll(".gradient-text, .gradient-text-m");
+  const texts = document.querySelectorAll(".gradient-text, .gradient-text-m, .gradient-text-b");
   texts.forEach((text) => {
     const letters = text.textContent.split("");
 

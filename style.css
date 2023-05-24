@@ -157,3 +157,8 @@ main .logo {
   right: 0rem;
   left: 6.5rem;
 }
+
+.about-img{
+  width: 90vw;
+  height: auto;
+}
